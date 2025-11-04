@@ -1,45 +1,47 @@
 import datetime, threading, requests, json, subprocess, time, os
 
+# -*- coding: utf-8 -*-
+
 #globales
 ficheros = []
-url="http://localhost:5000/"
+url="http://api-grupo3.duckdns.org/"
 intervalo_api=0.1
 intervalo_ficheros=2
 carpeta="ficheros/"
 tablas="res.partner sale.order sale.order.line account.move res.users product.product"
-
+#funcion para conectarse a la api y obtener los datos
 def getApi(tabla):
     global url
     d={
         "user":"ikmssaid24@lhusurbil.eus",
         "password":"usuario"
     }
-    a= requests.post(url+"login", json=d)
-    v=a.cookies
-    a= requests.get(url+"getDatosFiltro/"+tabla,cookies=v )
+    a= requests.post(url+"login", json=d)#realizo login
+    v=a.cookies#guardo la coockie
+    a= requests.get(url+"getDatosFiltro/"+tabla,cookies=v)# hago el get pasandole la cookie
     return json.dumps(a.json(), indent=4)
 
-def generarfichero(nom_tabla):
-    nom_fich=nom_tabla+datetime.datetime.now().strftime("%Y%m%d")+".json"
-    d=getApi(nom_tabla)
-    with open(carpeta+nom_fich, "w+", encoding="utf-8") as f:
+def generarfichero(nom_tabla):#funcion que crea o modifica un fichero y introduce en el los datos obtenidos de la api
+    nom_fich=nom_tabla+datetime.datetime.now().strftime("%Y%m%d")+".json"# hago el noombre del fichero (tabla+fecha).json
+    d=getApi(nom_tabla)#asigno los datos obtenidos por la api
+    with open(carpeta+nom_fich, "w+", encoding="utf-8") as f:#w para crear el fichero si no existe  
         f.write(d)
 
-def generarficheros():
+def generarficheros():#funcion que genera la cantidad de ficheros segun la variable tabla
     while True:
         for tabla in tablas.split(" "):
             generarfichero(tabla)
-        time.sleep(intervalo_api*60)
+        time.sleep(intervalo_api*60)#intervalo de descarga de datos de la api
 
 
-def monitorizar_ficheros():
+def monitorizar_ficheros():#funcion para que acada x tiempo revise si existen ficharos nuevos que se han aniadido y los guarfa en la variable ficheros
     os.makedirs(carpeta, exist_ok=True)
     while True:
         for fichero in os.listdir(carpeta):
             if fichero.endswith(".json") and fichero not in ficheros:
                 ficheros.append(fichero)
                 print(f"fichero detectado: {fichero}")
-        time.sleep(intervalo_ficheros)  # revisa cada 2 segundos
+        time.sleep(intervalo_ficheros)  # revisa cada x segundos
 
 def mostrar_ficheros(numeros=False):
     print(f""".
