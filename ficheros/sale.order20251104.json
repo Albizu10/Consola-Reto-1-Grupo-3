@@ -1,3 +1,2002 @@
-{
-    "error": "Usuario no autenticado"
-}
+[
+    {
+        "access_token": false,
+        "access_url": "/my/orders/8",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 0.0,
+        "amount_paid": 0.0,
+        "amount_tax": 268.8,
+        "amount_to_invoice": 1548.8,
+        "amount_total": 1548.8,
+        "amount_undiscounted": 1280.0,
+        "amount_unpaid": 1548.8,
+        "amount_untaxed": 1280.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 2,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 10:35:27",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 10:35:12",
+        "delivery_count": 0,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": false,
+        "display_name": "S00008",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-11-04 19:29:29",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 8,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 0,
+        "invoice_ids": [],
+        "invoice_status": "no",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 640.0,
+        "margin_percent": 0.5,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            145
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            321
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00008",
+        "note": "<p>T\u00e9rminos y condiciones: <a href=\"http://odoogroup3.duckdns.org/terms\" target=\"_blank\" rel=\"noreferrer noopener\">http://odoogroup3.duckdns.org/terms</a></p>",
+        "only_services": false,
+        "opportunity_id": false,
+        "order_line": [
+            19
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            11,
+            "Luis Rodrigez"
+        ],
+        "partner_invoice_id": [
+            11,
+            "Luis Rodrigez"
+        ],
+        "partner_shipping_id": [
+            11,
+            "Luis Rodrigez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": false,
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": false,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "draft",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 1280.0,
+            "base_amount_currency": 1280.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 1280.0,
+                    "base_amount_currency": 1280.0,
+                    "name": "Importe base",
+                    "tax_amount": 268.8,
+                    "tax_amount_currency": 268.8,
+                    "tax_groups": [
+                        {
+                            "base_amount": 1280.0,
+                            "base_amount_currency": 1280.0,
+                            "display_base_amount": 1280.0,
+                            "display_base_amount_currency": 1280.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 268.8,
+                            "tax_amount_currency": 268.8
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 268.8,
+            "tax_amount_currency": 268.8,
+            "total_amount": 1548.8,
+            "total_amount_currency": 1548.8
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Presupuesto",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            19
+        ],
+        "write_date": "2025-10-24 10:35:27",
+        "write_uid": [
+            2,
+            "Administrator"
+        ]
+    },
+    {
+        "access_token": "bfc3b49f-641d-46c9-8362-6270b8ab5bca",
+        "access_url": "/my/orders/7",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 242.0,
+        "amount_paid": 0.0,
+        "amount_tax": 42.0,
+        "amount_to_invoice": 0.0,
+        "amount_total": 242.0,
+        "amount_undiscounted": 200.0,
+        "amount_unpaid": 0.0,
+        "amount_untaxed": 200.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 1,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 10:33:43",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 10:34:00",
+        "delivery_count": 1,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": "pending",
+        "display_name": "S00007",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-10-24 10:34:00",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 7,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 1,
+        "invoice_ids": [
+            11
+        ],
+        "invoice_status": "invoiced",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 110.0,
+        "margin_percent": 0.55,
+        "medium_id": false,
+        "message_attachment_count": 1,
+        "message_follower_ids": [
+            139,
+            140
+        ],
+        "message_has_error": true,
+        "message_has_error_counter": 1,
+        "message_has_sms_error": false,
+        "message_ids": [
+            317,
+            314,
+            313
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3,
+            10
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00007",
+        "note": "<p>T\u00e9rminos y condiciones: <a href=\"http://odoogroup3.duckdns.org/terms\" target=\"_blank\" rel=\"noreferrer noopener\">http://odoogroup3.duckdns.org/terms</a></p>",
+        "only_services": false,
+        "opportunity_id": false,
+        "order_line": [
+            18
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "partner_invoice_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "partner_shipping_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [
+            12
+        ],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": [
+            10,
+            "S00007"
+        ],
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": false,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sale",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 200.0,
+            "base_amount_currency": 200.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 200.0,
+                    "base_amount_currency": 200.0,
+                    "name": "Importe base",
+                    "tax_amount": 42.0,
+                    "tax_amount_currency": 42.0,
+                    "tax_groups": [
+                        {
+                            "base_amount": 200.0,
+                            "base_amount_currency": 200.0,
+                            "display_base_amount": 200.0,
+                            "display_base_amount_currency": 200.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 42.0,
+                            "tax_amount_currency": 42.0
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 42.0,
+            "tax_amount_currency": 42.0,
+            "total_amount": 242.0,
+            "total_amount_currency": 242.0
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Pedido de venta",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [
+            314
+        ],
+        "website_order_line": [
+            18
+        ],
+        "write_date": "2025-10-24 10:34:13",
+        "write_uid": [
+            2,
+            "Administrator"
+        ]
+    },
+    {
+        "access_token": "ff3ecc18-e5ce-4621-9f60-0e9d3e726e44",
+        "access_url": "/my/orders/6",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 0.0,
+        "amount_paid": 0.0,
+        "amount_tax": 10.5,
+        "amount_to_invoice": 60.5,
+        "amount_total": 60.5,
+        "amount_undiscounted": 50.0,
+        "amount_unpaid": 60.5,
+        "amount_untaxed": 50.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": [
+            1,
+            "Standard delivery"
+        ],
+        "cart_quantity": 1,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 10:20:44",
+        "create_uid": [
+            1,
+            "OdooBot"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 10:20:44",
+        "delivery_count": 0,
+        "delivery_message": false,
+        "delivery_set": true,
+        "delivery_status": false,
+        "display_name": "S00006",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-11-04 19:29:29",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 6,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 0,
+        "invoice_ids": [],
+        "invoice_status": "no",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 25.0,
+        "margin_percent": 0.5,
+        "medium_id": false,
+        "message_attachment_count": 1,
+        "message_follower_ids": [
+            138
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            310,
+            309,
+            308,
+            306
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00006",
+        "note": "<p>T\u00e9rminos y condiciones: <a href=\"http://odoogroup3.duckdns.org/terms\" target=\"_blank\" rel=\"noreferrer noopener\">http://odoogroup3.duckdns.org/terms</a></p>",
+        "only_services": false,
+        "opportunity_id": false,
+        "order_line": [
+            16,
+            17
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            3,
+            "Administrator"
+        ],
+        "partner_invoice_id": [
+            3,
+            "Administrator"
+        ],
+        "partner_shipping_id": [
+            3,
+            "Administrator"
+        ],
+        "payment_term_id": [
+            1,
+            "Immediate Payment"
+        ],
+        "pending_email_template_id": false,
+        "picking_ids": [],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": false,
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": "S00006",
+        "require_payment": false,
+        "require_signature": false,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": false,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sent",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 50.0,
+            "base_amount_currency": 50.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 50.0,
+                    "base_amount_currency": 50.0,
+                    "name": "Importe base",
+                    "tax_amount": 10.5,
+                    "tax_amount_currency": 10.5,
+                    "tax_groups": [
+                        {
+                            "base_amount": 50.0,
+                            "base_amount_currency": 50.0,
+                            "display_base_amount": 50.0,
+                            "display_base_amount_currency": 50.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 10.5,
+                            "tax_amount_currency": 10.5
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 10.5,
+            "tax_amount_currency": 10.5,
+            "total_amount": 60.5,
+            "total_amount_currency": 60.5
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [
+            1
+        ],
+        "type_name": "Presupuesto",
+        "user_id": false,
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": [
+            1,
+            "My Website"
+        ],
+        "website_message_ids": [],
+        "website_order_line": [
+            16
+        ],
+        "write_date": "2025-10-24 10:22:25",
+        "write_uid": [
+            2,
+            "Administrator"
+        ]
+    },
+    {
+        "access_token": false,
+        "access_url": "/my/orders/5",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 1500.0,
+        "amount_paid": 0.0,
+        "amount_tax": 0.0,
+        "amount_to_invoice": 0.0,
+        "amount_total": 1500.0,
+        "amount_undiscounted": 1500.0,
+        "amount_unpaid": 0.0,
+        "amount_untaxed": 1500.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 1,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 08:31:15",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 08:31:36",
+        "delivery_count": 0,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": false,
+        "display_name": "S00005",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-10-24 08:31:36",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 5,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 1,
+        "invoice_ids": [
+            9
+        ],
+        "invoice_status": "no",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 625.0,
+        "margin_percent": 0.4166666666666667,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            116,
+            117
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            295,
+            291,
+            268,
+            267
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3,
+            14
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00005",
+        "note": false,
+        "only_services": false,
+        "opportunity_id": false,
+        "order_line": [
+            13,
+            14,
+            15
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_invoice_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_shipping_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": false,
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": true,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sale",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 1500.0,
+            "base_amount_currency": 1500.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": false,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 1500.0,
+                    "base_amount_currency": 1500.0,
+                    "name": "Importe base",
+                    "tax_amount": 0.0,
+                    "tax_amount_currency": 0.0,
+                    "tax_groups": []
+                }
+            ],
+            "tax_amount": 0.0,
+            "tax_amount_currency": 0.0,
+            "total_amount": 1500.0,
+            "total_amount_currency": 1500.0
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Pedido de venta",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            13,
+            15
+        ],
+        "write_date": "2025-10-24 09:36:30",
+        "write_uid": [
+            1,
+            "OdooBot"
+        ]
+    },
+    {
+        "access_token": false,
+        "access_url": "/my/orders/4",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 3230.7,
+        "amount_paid": 0.0,
+        "amount_tax": 560.7,
+        "amount_to_invoice": 0.0,
+        "amount_total": 3230.7,
+        "amount_undiscounted": 2670.0,
+        "amount_unpaid": 0.0,
+        "amount_untaxed": 2670.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 9,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 07:57:11",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 07:59:54",
+        "delivery_count": 2,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": "partial",
+        "display_name": "S00004",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-10-24 07:59:54",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 4,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 1,
+        "invoice_ids": [
+            4
+        ],
+        "invoice_status": "invoiced",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 1365.0,
+        "margin_percent": 0.5112359550561798,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            88,
+            99
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            236,
+            233,
+            213
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3,
+            10
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00004",
+        "note": false,
+        "only_services": false,
+        "opportunity_id": false,
+        "order_line": [
+            4,
+            5,
+            6
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "partner_invoice_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "partner_shipping_id": [
+            10,
+            "Juan Martinez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [
+            8,
+            10
+        ],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": [
+            8,
+            "S00004"
+        ],
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": false,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sale",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 2670.0,
+            "base_amount_currency": 2670.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 2670.0,
+                    "base_amount_currency": 2670.0,
+                    "name": "Importe base",
+                    "tax_amount": 560.7,
+                    "tax_amount_currency": 560.7,
+                    "tax_groups": [
+                        {
+                            "base_amount": 2670.0,
+                            "base_amount_currency": 2670.0,
+                            "display_base_amount": 2670.0,
+                            "display_base_amount_currency": 2670.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 560.7,
+                            "tax_amount_currency": 560.7
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 560.7,
+            "tax_amount_currency": 560.7,
+            "total_amount": 3230.7,
+            "total_amount_currency": 3230.7
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Pedido de venta",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            4,
+            5,
+            6
+        ],
+        "write_date": "2025-10-24 09:36:30",
+        "write_uid": [
+            1,
+            "OdooBot"
+        ]
+    },
+    {
+        "access_token": false,
+        "access_url": "/my/orders/3",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 1224.88,
+        "amount_paid": 0.0,
+        "amount_tax": 207.9,
+        "amount_to_invoice": 0.0,
+        "amount_total": 2697.9,
+        "amount_undiscounted": 2490.0,
+        "amount_unpaid": 933.44,
+        "amount_untaxed": 2490.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 4,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 07:43:05",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 07:43:05",
+        "delivery_count": 2,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": "partial",
+        "display_name": "S00003",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-10-24 07:43:05",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 3,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 4,
+        "invoice_ids": [
+            2,
+            6,
+            5,
+            8
+        ],
+        "invoice_status": "no",
+        "is_abandoned_cart": false,
+        "is_all_service": false,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 715.0,
+        "margin_percent": 0.28714859437751006,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            78,
+            79
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            263,
+            253,
+            245,
+            238,
+            237,
+            205,
+            198,
+            195
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3,
+            9
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00003",
+        "note": false,
+        "only_services": false,
+        "opportunity_id": [
+            1,
+            "Oportunidad de Carla Jimenez"
+        ],
+        "order_line": [
+            3,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+        ],
+        "origin": "Oportunidad de Carla Jimenez",
+        "partner_credit_warning": "",
+        "partner_id": [
+            9,
+            "Carla Jimenez"
+        ],
+        "partner_invoice_id": [
+            9,
+            "Carla Jimenez"
+        ],
+        "partner_shipping_id": [
+            9,
+            "Carla Jimenez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [
+            4,
+            9
+        ],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": [
+            1,
+            "Por defecto (EUR)"
+        ],
+        "procurement_group_id": [
+            4,
+            "S00003"
+        ],
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": true,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sale",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 2490.0,
+            "base_amount_currency": 2490.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": false,
+            "subtotals": [
+                {
+                    "base_amount": 2490.0,
+                    "base_amount_currency": 2490.0,
+                    "name": "Importe base",
+                    "tax_amount": 207.9,
+                    "tax_amount_currency": 207.9,
+                    "tax_groups": [
+                        {
+                            "base_amount": 990.0,
+                            "base_amount_currency": 990.0,
+                            "display_base_amount": 990.0,
+                            "display_base_amount_currency": 990.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 207.9,
+                            "tax_amount_currency": 207.9
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 207.9,
+            "tax_amount_currency": 207.9,
+            "total_amount": 2697.9,
+            "total_amount_currency": 2697.9
+        },
+        "team_id": [
+            4,
+            "TechSolution-Equipo de Ventas"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Pedido de venta",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            3,
+            7,
+            9,
+            10,
+            11,
+            12
+        ],
+        "write_date": "2025-10-24 09:36:30",
+        "write_uid": [
+            1,
+            "OdooBot"
+        ]
+    },
+    {
+        "access_token": false,
+        "access_url": "/my/orders/2",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 0.0,
+        "amount_paid": 0.0,
+        "amount_tax": 0.0,
+        "amount_to_invoice": 0.0,
+        "amount_total": 0.0,
+        "amount_undiscounted": 0.0,
+        "amount_unpaid": 0.0,
+        "amount_untaxed": 0.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 0,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 07:20:33",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 07:21:09",
+        "delivery_count": 0,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": false,
+        "display_name": "S00002",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-10-24 07:21:09",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 2,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 0,
+        "invoice_ids": [],
+        "invoice_status": "invoiced",
+        "is_abandoned_cart": false,
+        "is_all_service": true,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 0.0,
+        "margin_percent": 0.0,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            66,
+            68
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            167,
+            165,
+            163
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3,
+            14
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00002",
+        "note": false,
+        "only_services": true,
+        "opportunity_id": false,
+        "order_line": [
+            2
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_invoice_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_shipping_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "payment_term_id": [
+            8,
+            "30% Now, Balance 60 Days"
+        ],
+        "pending_email_template_id": false,
+        "picking_ids": [],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": false,
+        "procurement_group_id": false,
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": true,
+        "show_hours_recorded_button": true,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "sale",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 0.0,
+            "base_amount_currency": 0.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": true,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 0.0,
+                    "base_amount_currency": 0.0,
+                    "name": "Importe base",
+                    "tax_amount": 0.0,
+                    "tax_amount_currency": 0.0,
+                    "tax_groups": [
+                        {
+                            "base_amount": 0.0,
+                            "base_amount_currency": 0.0,
+                            "display_base_amount": 0.0,
+                            "display_base_amount_currency": 0.0,
+                            "group_label": false,
+                            "group_name": "VAT 21%",
+                            "id": 30,
+                            "involved_tax_ids": [
+                                52
+                            ],
+                            "tax_amount": 0.0,
+                            "tax_amount_currency": 0.0
+                        }
+                    ]
+                }
+            ],
+            "tax_amount": 0.0,
+            "tax_amount_currency": 0.0,
+            "total_amount": 0.0,
+            "total_amount_currency": 0.0
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 1.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 10,
+        "transaction_ids": [],
+        "type_name": "Pedido de venta",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            2
+        ],
+        "write_date": "2025-10-24 09:36:30",
+        "write_uid": [
+            1,
+            "OdooBot"
+        ]
+    },
+    {
+        "access_token": false,
+        "access_url": "/my/orders/1",
+        "access_warning": "",
+        "activity_calendar_event_id": false,
+        "activity_date_deadline": false,
+        "activity_exception_decoration": false,
+        "activity_exception_icon": false,
+        "activity_ids": [],
+        "activity_state": false,
+        "activity_summary": false,
+        "activity_type_icon": false,
+        "activity_type_id": false,
+        "activity_user_id": false,
+        "amount_delivery": 0.0,
+        "amount_invoiced": 0.0,
+        "amount_paid": 0.0,
+        "amount_tax": 0.0,
+        "amount_to_invoice": 0.0,
+        "amount_total": 4500.0,
+        "amount_undiscounted": 4500.0,
+        "amount_unpaid": 4500.0,
+        "amount_untaxed": 4500.0,
+        "authorized_transaction_ids": [],
+        "available_product_document_ids": [],
+        "campaign_id": false,
+        "carrier_id": false,
+        "cart_quantity": 3,
+        "cart_recovery_email_sent": false,
+        "client_order_ref": false,
+        "closed_task_count": 0,
+        "commitment_date": false,
+        "company_id": [
+            1,
+            "Add your name in the body"
+        ],
+        "company_price_include": "tax_excluded",
+        "completed_task_percentage": 0.0,
+        "country_code": "ES",
+        "create_date": "2025-10-24 07:00:21",
+        "create_uid": [
+            2,
+            "Administrator"
+        ],
+        "currency_id": [
+            125,
+            "EUR"
+        ],
+        "currency_rate": 1.0,
+        "customizable_pdf_form_fields": false,
+        "date_order": "2025-10-24 06:59:34",
+        "delivery_count": 0,
+        "delivery_message": false,
+        "delivery_set": false,
+        "delivery_status": false,
+        "display_name": "S00001",
+        "duplicated_order_ids": [],
+        "effective_date": false,
+        "expected_date": "2025-11-04 19:29:29",
+        "fiscal_position_id": [
+            2,
+            "EU private"
+        ],
+        "has_active_pricelist": true,
+        "has_archived_products": false,
+        "has_message": true,
+        "id": 1,
+        "incoterm": false,
+        "incoterm_location": false,
+        "invoice_count": 0,
+        "invoice_ids": [],
+        "invoice_status": "no",
+        "is_abandoned_cart": false,
+        "is_all_service": true,
+        "is_expired": false,
+        "is_pdf_quote_builder_available": false,
+        "is_product_milestone": false,
+        "journal_id": false,
+        "json_popover": "{\"popoverTemplate\": \"sale_stock.DelayAlertWidget\", \"late_elements\": []}",
+        "locked": false,
+        "margin": 1875.0,
+        "margin_percent": 0.4166666666666667,
+        "medium_id": false,
+        "message_attachment_count": 0,
+        "message_follower_ids": [
+            60
+        ],
+        "message_has_error": false,
+        "message_has_error_counter": 0,
+        "message_has_sms_error": false,
+        "message_ids": [
+            148
+        ],
+        "message_is_follower": true,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "message_partner_ids": [
+            3
+        ],
+        "milestone_count": 0,
+        "my_activity_date_deadline": false,
+        "name": "S00001",
+        "note": false,
+        "only_services": true,
+        "opportunity_id": false,
+        "order_line": [
+            1
+        ],
+        "origin": false,
+        "partner_credit_warning": "",
+        "partner_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_invoice_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "partner_shipping_id": [
+            14,
+            "Laura Hernandez"
+        ],
+        "payment_term_id": false,
+        "pending_email_template_id": false,
+        "picking_ids": [],
+        "picking_policy": "direct",
+        "pickup_location_data": false,
+        "pos_order_count": 0,
+        "pos_order_line_ids": [],
+        "prepayment_percent": 1.0,
+        "pricelist_id": false,
+        "procurement_group_id": false,
+        "project_account_id": false,
+        "project_count": 0,
+        "project_id": false,
+        "project_ids": [],
+        "purchase_order_count": 0,
+        "quotation_document_ids": [],
+        "rating_ids": [],
+        "recompute_delivery_price": false,
+        "reference": false,
+        "require_payment": false,
+        "require_signature": true,
+        "sale_order_option_ids": [],
+        "sale_order_template_id": false,
+        "shipping_weight": 0.0,
+        "shop_warning": false,
+        "show_create_project_button": false,
+        "show_hours_recorded_button": false,
+        "show_json_popover": false,
+        "show_project_button": false,
+        "show_task_button": false,
+        "show_update_fpos": false,
+        "show_update_pricelist": false,
+        "signature": false,
+        "signed_by": false,
+        "signed_on": false,
+        "source_id": false,
+        "state": "draft",
+        "tag_ids": [],
+        "tasks_count": 0,
+        "tasks_ids": [],
+        "tax_calculation_rounding_method": "round_per_line",
+        "tax_country_id": [
+            68,
+            "Spain"
+        ],
+        "tax_totals": {
+            "base_amount": 4500.0,
+            "base_amount_currency": 4500.0,
+            "company_currency_id": 125,
+            "company_currency_pd": 0.01,
+            "currency_id": 125,
+            "currency_pd": 0.01,
+            "has_tax_groups": false,
+            "same_tax_base": true,
+            "subtotals": [
+                {
+                    "base_amount": 4500.0,
+                    "base_amount_currency": 4500.0,
+                    "name": "Importe base",
+                    "tax_amount": 0.0,
+                    "tax_amount_currency": 0.0,
+                    "tax_groups": []
+                }
+            ],
+            "tax_amount": 0.0,
+            "tax_amount_currency": 0.0,
+            "total_amount": 4500.0,
+            "total_amount_currency": 4500.0
+        },
+        "team_id": [
+            1,
+            "Sales"
+        ],
+        "terms_type": "html",
+        "timesheet_count": 0.0,
+        "timesheet_encode_uom_id": [
+            4,
+            "Hours"
+        ],
+        "timesheet_total_duration": 0,
+        "transaction_ids": [],
+        "type_name": "Presupuesto",
+        "user_id": [
+            2,
+            "Administrator"
+        ],
+        "validity_date": "2025-11-23",
+        "visible_project": false,
+        "warehouse_id": [
+            1,
+            "Tech-Solutions S.L -Almacen-Central"
+        ],
+        "website_id": false,
+        "website_message_ids": [],
+        "website_order_line": [
+            1
+        ],
+        "write_date": "2025-10-24 09:36:30",
+        "write_uid": [
+            1,
+            "OdooBot"
+        ]
+    }
+]
